@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import SignIn from './Components/SignIn';
 import Drag from './Components/Drag';
 import { useState, useEffect } from 'react';
-import { auth } from './firebase'
+import { auth } from './Firebase'
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import UnDrag from './Components/UnDrag';
 // Images
