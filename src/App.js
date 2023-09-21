@@ -103,10 +103,11 @@ function App() {
       } else {
         setAuthUser(null)
       }
+      setLoading(false)
     });
     return ()=>{
       check();
-      setLoading(false)
+      // setLoading(false)
     }
   }, [])
 
@@ -150,14 +151,6 @@ function App() {
         <Route path='auth' element={<SignIn />} />
     </Routes>
         }
-    {/* {
-      !authUser ? <SignIn /> : ''
-    } */}
-    {/* {
-      modal && (<SignIn     modal={modal}
-        setModal={setModal} />)
-    } */}
-    {/* <SignIn toggleModal={toggleModal} /> */}
     </>
   );
 }
