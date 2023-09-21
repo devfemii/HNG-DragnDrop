@@ -47,7 +47,7 @@ const SignIn = ({toggleModal, modal, setModal}) => {
             <div id="notice">
                 <h5>Login with below credentials:</h5>
                 <p><span>Username: </span>user@example.com</p>
-                <p><span>Password: </span>1password</p>
+                <p><span>Password: </span>1Password</p>
             </div>
             {/* <button onClick={toggleModal}>close</button> */}
         </form>
